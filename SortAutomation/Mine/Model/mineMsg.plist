@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>New item</key>
+	<array>
+		<dict>
+			<key>index</key>
+			<string>0</string>
+			<key>name</key>
+			<string>收货地址</string>
+			<key>image</key>
+			<string>icon_address</string>
+		</dict>
+        <dict>
+            <key>index</key>
+            <string>1</string>
+            <key>name</key>
+            <string>预约记录</string>
+            <key>image</key>
+            <string>icon_order</string>
+        </dict>
+        <dict>
+            <key>index</key>
+            <string>2</string>
+            <key>name</key>
+            <string>取袋记录</string>
+            <key>image</key>
+            <string>icon_take</string>
+        </dict>
+        <dict>
+            <key>index</key>
+            <string>3</string>
+            <key>name</key>
+            <string>投放记录</string>
+            <key>image</key>
+            <string>icon_put</string>
+        </dict>
+        <dict>
+            <key>index</key>
+            <string>4</string>
+            <key>name</key>
+            <string>环保数据</string>
+            <key>image</key>
+            <string>icon_green</string>
+        </dict>
+        <dict>
+            <key>index</key>
+            <string>5</string>
+            <key>name</key>
+            <string>意见反馈</string>
+            <key>image</key>
+            <string>icon_advice</string>
+        </dict>
+        <dict>
+            <key>index</key>
+            <string>6</string>
+            <key>name</key>
+            <string>系统设置</string>
+            <key>image</key>
+            <string>icon_setting</string>
+        </dict>
+	</array>
+</dict>
+</plist>
