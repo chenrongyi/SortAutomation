@@ -1,5 +1,5 @@
 //
-//  SAHomeViewController.h
+//  SAShaoMaViewController.h
 //  SortAutomation
 //
 //  Created by ChenEZ on 2019/11/11.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SAHomeViewController : UIViewController
+@interface SAShaoMaViewController : UIViewController
 
 @end

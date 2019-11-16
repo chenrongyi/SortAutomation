@@ -1,21 +1,23 @@
 //
-//  SADiscoverViewController.m
+//  SAShaoMaViewController.m
 //  SortAutomation
 //
-//  Created by ChenEZ on 2019/10/19.
+//  Created by ChenEZ on 2019/11/11.
 //  Copyright © 2019年 ceshi. All rights reserved.
 //
 
-#import "SADiscoverViewController.h"
+#import "SAShaoMaViewController.h"
 
-@interface SADiscoverViewController ()
+@interface SAShaoMaViewController ()
 
 @end
 
-@implementation SADiscoverViewController
+@implementation SAShaoMaViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    // Do any additional setup after loading the view.
+    
     CAGradientLayer *layer = [CAGradientLayer new];
     //colors存放渐变的颜色的数组
     layer.colors=@[(__bridge id)RGBColor(96, 235, 170).CGColor,(__bridge id)RGBColor(69, 184, 202).CGColor];
@@ -26,6 +28,20 @@
     layer.endPoint = CGPointMake(0.5, 1);
     layer.frame = self.view.bounds;
     [self.view.layer addSublayer:layer];
+    
+    [self.navigationController.navigationBar setHidden:NO];
+    self.navigationController.title = @"扫码投递";
+
+    
+    [self setupUI];
+    
+}
+
+
+-(void)setupUI{
+    
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {

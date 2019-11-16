@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		065EF43E2379ACED00F54BED /* SAShaoMaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 065EF43D2379ACED00F54BED /* SAShaoMaViewController.m */; };
+		0696EA2A23799A83004AE935 /* SAHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0696EA2823799A83004AE935 /* SAHomeViewController.m */; };
+		0696EA2B23799A83004AE935 /* SAHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0696EA2923799A83004AE935 /* SAHomeViewController.xib */; };
 		06A1EAB8235AEE750067DBC0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A1EAB7235AEE750067DBC0 /* AppDelegate.m */; };
 		06A1EABB235AEE750067DBC0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A1EABA235AEE750067DBC0 /* ViewController.m */; };
 		06A1EABE235AEE750067DBC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06A1EABC235AEE750067DBC0 /* Main.storyboard */; };
@@ -15,7 +18,6 @@
 		06A1EAC6235AEE750067DBC0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A1EAC5235AEE750067DBC0 /* main.m */; };
 		06A1EAED235AF6380067DBC0 /* SATabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A1EAEC235AF6380067DBC0 /* SATabBarViewController.m */; };
 		06A1EAF0235AF6FA0067DBC0 /* SANavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A1EAEF235AF6FA0067DBC0 /* SANavigationController.m */; };
-		06A1EAF5235AF7A50067DBC0 /* SAHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A1EAF4235AF7A50067DBC0 /* SAHomeViewController.m */; };
 		06A1EAFB235AF9D50067DBC0 /* SADiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A1EAFA235AF9D50067DBC0 /* SADiscoverViewController.m */; };
 		06A1EAFF235AFA170067DBC0 /* SAShopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A1EAFE235AFA170067DBC0 /* SAShopViewController.m */; };
 		06A1EB04235AFB870067DBC0 /* SAMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A1EB03235AFB870067DBC0 /* SAMineViewController.m */; };
@@ -33,6 +35,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		065EF43C2379ACED00F54BED /* SAShaoMaViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SAShaoMaViewController.h; sourceTree = "<group>"; };
+		065EF43D2379ACED00F54BED /* SAShaoMaViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SAShaoMaViewController.m; sourceTree = "<group>"; };
+		0696EA2723799A83004AE935 /* SAHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SAHomeViewController.h; sourceTree = "<group>"; };
+		0696EA2823799A83004AE935 /* SAHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SAHomeViewController.m; sourceTree = "<group>"; };
+		0696EA2923799A83004AE935 /* SAHomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SAHomeViewController.xib; sourceTree = "<group>"; };
 		06A1EAB3235AEE750067DBC0 /* SortAutomation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SortAutomation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06A1EAB6235AEE750067DBC0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		06A1EAB7235AEE750067DBC0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -48,8 +55,6 @@
 		06A1EAEC235AF6380067DBC0 /* SATabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SATabBarViewController.m; sourceTree = "<group>"; };
 		06A1EAEE235AF6FA0067DBC0 /* SANavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SANavigationController.h; sourceTree = "<group>"; };
 		06A1EAEF235AF6FA0067DBC0 /* SANavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SANavigationController.m; sourceTree = "<group>"; };
-		06A1EAF3235AF7A50067DBC0 /* SAHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SAHomeViewController.h; sourceTree = "<group>"; };
-		06A1EAF4235AF7A50067DBC0 /* SAHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SAHomeViewController.m; sourceTree = "<group>"; };
 		06A1EAF9235AF9D50067DBC0 /* SADiscoverViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SADiscoverViewController.h; sourceTree = "<group>"; };
 		06A1EAFA235AF9D50067DBC0 /* SADiscoverViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SADiscoverViewController.m; sourceTree = "<group>"; };
 		06A1EAFD235AFA170067DBC0 /* SAShopViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SAShopViewController.h; sourceTree = "<group>"; };
@@ -162,8 +167,11 @@
 		06A1EAF2235AF78A0067DBC0 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				06A1EAF3235AF7A50067DBC0 /* SAHomeViewController.h */,
-				06A1EAF4235AF7A50067DBC0 /* SAHomeViewController.m */,
+				0696EA2723799A83004AE935 /* SAHomeViewController.h */,
+				0696EA2823799A83004AE935 /* SAHomeViewController.m */,
+				0696EA2923799A83004AE935 /* SAHomeViewController.xib */,
+				065EF43C2379ACED00F54BED /* SAShaoMaViewController.h */,
+				065EF43D2379ACED00F54BED /* SAShaoMaViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -341,6 +349,7 @@
 				06A1EAC3235AEE750067DBC0 /* LaunchScreen.storyboard in Resources */,
 				06A1EAC0235AEE750067DBC0 /* Assets.xcassets in Resources */,
 				06A1EABE235AEE750067DBC0 /* Main.storyboard in Resources */,
+				0696EA2B23799A83004AE935 /* SAHomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,13 +383,13 @@
 			files = (
 				06A1EB37235CA3040067DBC0 /* SAForgetpwdViewController.m in Sources */,
 				06A1EABB235AEE750067DBC0 /* ViewController.m in Sources */,
-				06A1EAF5235AF7A50067DBC0 /* SAHomeViewController.m in Sources */,
 				06A1EB31235CA11D0067DBC0 /* UIButton+CountDown.m in Sources */,
 				06A1EB30235CA11D0067DBC0 /* MJCountDownButton.m in Sources */,
 				06A1EAFB235AF9D50067DBC0 /* SADiscoverViewController.m in Sources */,
 				06A1EB34235CA1350067DBC0 /* UIImage+Color.m in Sources */,
 				06A1EAC6235AEE750067DBC0 /* main.m in Sources */,
 				06A1EB25235B5E1B0067DBC0 /* UIViewExt.m in Sources */,
+				0696EA2A23799A83004AE935 /* SAHomeViewController.m in Sources */,
 				06A1EAF0235AF6FA0067DBC0 /* SANavigationController.m in Sources */,
 				06A1EAED235AF6380067DBC0 /* SATabBarViewController.m in Sources */,
 				06A1EB09235B423A0067DBC0 /* SAMineTableViewCell.m in Sources */,
@@ -389,6 +398,7 @@
 				06A1EB04235AFB870067DBC0 /* SAMineViewController.m in Sources */,
 				06A1EB28235B5EC40067DBC0 /* SALoginRegisterViewController.m in Sources */,
 				06A1EAB8235AEE750067DBC0 /* AppDelegate.m in Sources */,
+				065EF43E2379ACED00F54BED /* SAShaoMaViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
