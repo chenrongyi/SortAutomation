@@ -3,4 +3,5 @@ target 'SortAutomation' do
 pod 'AFNetworking'
 pod 'SDWebImage'
 pod 'Masonry'
+pod 'WMPageController'
 end

@@ -18,23 +18,27 @@ PODS:
   - SDWebImage (4.4.2):
     - SDWebImage/Core (= 4.4.2)
   - SDWebImage/Core (4.4.2)
+  - WMPageController (2.5.2)
 
 DEPENDENCIES:
   - AFNetworking
   - Masonry
   - SDWebImage
+  - WMPageController
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - AFNetworking
     - Masonry
     - SDWebImage
+    - WMPageController
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
+  WMPageController: 0c7624d2b48e4f1ab92371688cf6744ed701575d
 
-PODFILE CHECKSUM: 4b84b7c62f0057349e1adf135f7f3fee4e54cce4
+PODFILE CHECKSUM: 00aa50dbc6f0163718325642eb91ee0b95414342
 
 COCOAPODS: 1.5.3
