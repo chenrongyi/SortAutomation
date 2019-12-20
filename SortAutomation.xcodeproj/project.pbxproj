@@ -31,6 +31,7 @@
 		06A1EB31235CA11D0067DBC0 /* UIButton+CountDown.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A1EB2F235CA11D0067DBC0 /* UIButton+CountDown.m */; };
 		06A1EB34235CA1350067DBC0 /* UIImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A1EB32235CA1340067DBC0 /* UIImage+Color.m */; };
 		06A1EB37235CA3040067DBC0 /* SAForgetpwdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A1EB36235CA3040067DBC0 /* SAForgetpwdViewController.m */; };
+		13FC037C23AC64A8009E4803 /* SAHTTPRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 13FC037B23AC64A8009E4803 /* SAHTTPRequestManager.m */; };
 		638B57D229E6CC6488E57A5F /* libPods-SortAutomation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DDFC34EC7B9DD27855105401 /* libPods-SortAutomation.a */; };
 /* End PBXBuildFile section */
 
@@ -79,6 +80,8 @@
 		06A1EB33235CA1350067DBC0 /* UIImage+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Color.h"; sourceTree = "<group>"; };
 		06A1EB35235CA3040067DBC0 /* SAForgetpwdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SAForgetpwdViewController.h; sourceTree = "<group>"; };
 		06A1EB36235CA3040067DBC0 /* SAForgetpwdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SAForgetpwdViewController.m; sourceTree = "<group>"; };
+		13FC037A23AC64A8009E4803 /* SAHTTPRequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAHTTPRequestManager.h; sourceTree = "<group>"; };
+		13FC037B23AC64A8009E4803 /* SAHTTPRequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAHTTPRequestManager.m; sourceTree = "<group>"; };
 		71A57B115D3DB9D35A3F1813 /* Pods-SortAutomation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SortAutomation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SortAutomation/Pods-SortAutomation.debug.xcconfig"; sourceTree = "<group>"; };
 		9C062E391F05BDDD4942B891 /* Pods-SortAutomation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SortAutomation.release.xcconfig"; path = "Pods/Target Support Files/Pods-SortAutomation/Pods-SortAutomation.release.xcconfig"; sourceTree = "<group>"; };
 		DDFC34EC7B9DD27855105401 /* libPods-SortAutomation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SortAutomation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -247,6 +250,8 @@
 			isa = PBXGroup;
 			children = (
 				06A1EB0C235B446B0067DBC0 /* mineMsg.plist */,
+				13FC037A23AC64A8009E4803 /* SAHTTPRequestManager.h */,
+				13FC037B23AC64A8009E4803 /* SAHTTPRequestManager.m */,
 				06A1EB0E235B4B640067DBC0 /* SAMineDataManager.h */,
 				06A1EB0F235B4B640067DBC0 /* SAMineDataManager.m */,
 			);
@@ -390,6 +395,7 @@
 				06A1EAC6235AEE750067DBC0 /* main.m in Sources */,
 				06A1EB25235B5E1B0067DBC0 /* UIViewExt.m in Sources */,
 				0696EA2A23799A83004AE935 /* SAHomeViewController.m in Sources */,
+				13FC037C23AC64A8009E4803 /* SAHTTPRequestManager.m in Sources */,
 				06A1EAF0235AF6FA0067DBC0 /* SANavigationController.m in Sources */,
 				06A1EAED235AF6380067DBC0 /* SATabBarViewController.m in Sources */,
 				06A1EB09235B423A0067DBC0 /* SAMineTableViewCell.m in Sources */,

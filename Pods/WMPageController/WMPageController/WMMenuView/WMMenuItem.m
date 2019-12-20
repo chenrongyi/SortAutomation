@@ -21,7 +21,7 @@
 - (instancetype)initWithFrame:(CGRect)frame {
     if (self = [super initWithFrame:frame]) {
         self.normalColor   = [UIColor blackColor];
-        self.selectedColor = [UIColor colorWithRed:114.0/255.0 green:216.0/255.0 blue:176.0/255.0 alpha:1];
+        self.selectedColor = [UIColor blackColor];
         self.normalSize    = 15;
         self.selectedSize  = 18;
         self.numberOfLines = 0;
